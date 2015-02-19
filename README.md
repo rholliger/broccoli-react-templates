@@ -13,6 +13,7 @@ npm install --save broccoli-react-templates
 
 ```js
 var filterReactTemplates = require("broccoli-react-templates");
+
 tree = filterReactTemplates(tree, {
   extensions: ["react"]
 });
@@ -21,8 +22,9 @@ tree = filterReactTemplates(tree, {
 Given a file `template.react`
 
 ```html
-<rt-require dependency="comps/myComp" as="MyComp"/>
-<rt-require dependency="utils/utils" as="utils"/>
+<rt-require dependency="comps/myComp" as="MyComp" />
+<rt-require dependency="utils/utils" as="utils" />
+
 <MyComp rt-repeat="item in items">
     <div>{utils.toLower(item.name)}</div>
 </MyComp>
