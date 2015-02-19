@@ -19,7 +19,7 @@ tree = filterReactTemplates(tree, {
 });
 ```
 
-Given a file `template.react`
+Given a file `template.react`:
 
 ```html
 <rt-require dependency="comps/myComp" as="MyComp" />
