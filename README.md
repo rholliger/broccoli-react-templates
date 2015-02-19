@@ -31,8 +31,6 @@ Given a file `template.react`
 this function will emit a file `template.js`:
 
 ```js
-import { React } from 'react/addons';
-import { _ } from 'lodash';
 import { MyComp } from 'comps/myComp';
 import { utils } from 'utils/utils';
 function repeatItem1(item, itemIndex) {
