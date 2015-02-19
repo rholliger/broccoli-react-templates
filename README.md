@@ -48,7 +48,9 @@ which can be included into React components:
 import template from "template";
 
 var MyComponent = React.createClass({
-    render: template.call(this);
+    render: function() {
+        return template.call(this);
+    }
 });
 ```
 
