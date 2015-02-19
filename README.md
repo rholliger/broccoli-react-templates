@@ -1,6 +1,6 @@
 # broccoli-react-templates
 
-A generic filter for Broccoli that turns react template files into ES6
+A generic filter for Broccoli that turns React template files into ES6
 JavaScript modules that can be imported in React components.
 
 ## Installation
@@ -42,6 +42,20 @@ export default function () {
     return _.map(items, repeatItem1.bind(this));
 };
 ```
+
+which can be included into React components:
+```js
+import { template } from "template"
+
+var MyComponent = React.createClass({
+    render: template.call(this);
+});
+```
+
+Important: React and Lodash need to be globally available!
+
+## More?
+https://github.com/wix/react-templates
 
 ## License
 
