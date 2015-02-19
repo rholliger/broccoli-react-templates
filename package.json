@@ -1,6 +1,6 @@
 {
   "name": "broccoli-react-templates",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Broccoli plugin for wix/react-templates",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kraftwer1/broccoli-react-templates",
   "dependencies": {
-      "react-templates": "https://github.com/wix/react-templates/tarball/gh-pages",
+      "react-templates": "0.1.13",
       "broccoli-filter": "0.1.10"
   }
 }

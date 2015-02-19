@@ -45,7 +45,7 @@ export default function () {
 
 which can be included into React components:
 ```js
-import { template } from "template"
+import template from "template";
 
 var MyComponent = React.createClass({
     render: template.call(this);
