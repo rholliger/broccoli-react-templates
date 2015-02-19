@@ -20,7 +20,7 @@ tree = filterReactTemplates(tree, {
 
 Given a file `template.react`
 
-```react
+```html
 <rt-require dependency="comps/myComp" as="MyComp"/>
 <rt-require dependency="utils/utils" as="utils"/>
 <MyComp rt-repeat="item in items">
