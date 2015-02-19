@@ -1,0 +1,27 @@
+{
+  "name": "broccoli-react-templates",
+  "version": "0.0.1",
+  "description": "Broccoli plugin for wix/react-templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kraftwer1/broccoli-react-templates"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "react-templates"
+  ],
+  "author": "Alex Kuehne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kraftwer1/broccoli-react-templates/issues"
+  },
+  "homepage": "https://github.com/kraftwer1/broccoli-react-templates",
+  "dependencies": {
+      "react-templates": "https://github.com/wix/react-templates/tarball/gh-pages",
+      "broccoli-filter": "0.1.10"
+  }
+}
