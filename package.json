@@ -1,6 +1,6 @@
 {
   "name": "broccoli-react-templates",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Broccoli plugin for wix/react-templates",
   "main": "index.js",
   "scripts": {
