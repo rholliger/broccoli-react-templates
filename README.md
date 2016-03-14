@@ -56,6 +56,10 @@ var MyComponent = React.createClass({
 
 Important: React and Lodash need to be globally available!
 
+## Changelog
+v0.0.5:
+    - Updated dependencies. Compatible with the newest node version v5.8.0
+
 ## More?
 https://github.com/wix/react-templates
 
